@@ -1,0 +1,32 @@
+/*
+  Design tokens for EdgeLedger.
+  Change colors, type, and spacing here. The other stylesheets use these names
+  so a later theme (or a user setting) can restyle the app from one file.
+*/
+
+:root {
+  --bg: #090b10;
+  --bg-elevated: #10141c;
+  --bg-card: rgba(20, 24, 34, 0.92);
+  --bg-card-solid: #141822;
+  --line: rgba(243, 239, 230, 0.08);
+  --line-strong: rgba(243, 239, 230, 0.16);
+  --text: #f4f0e8;
+  --text-dim: #a7b0c0;
+  --text-faint: #727c8e;
+  --gold: #e0b15a;
+  --gold-strong: #f0cb86;
+  --gold-soft: rgba(224, 177, 90, 0.14);
+  --profit: #3dbe8a;
+  --profit-soft: rgba(61, 190, 138, 0.14);
+  --loss: #f07178;
+  --loss-soft: rgba(240, 113, 120, 0.14);
+  --info: #8eafff;
+  --shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+  --sidebar: 260px;
+  --radius: 16px;
+  --font: "Manrope", "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", "Cascadia Mono", Consolas, monospace;
+  --space: 16px;
+  color-scheme: dark;
+}
